@@ -1,0 +1,66 @@
+{
+    "fields": {
+        "_trca_field": "_dw_field",
+        "location": {
+            "remote": "LocationIdentifier",
+            "dw": "header_location_id"
+        },
+        "parameter": {
+            "remote": "ParameterId",
+            "dw": "header_parameterId_id"
+        },
+        "timeseries_id": {
+            "remote": "UniqueId",
+            "dw": "id"
+        }
+    },
+    "parameters": {
+        "_trca_parameterID": "_dw_parameterID",
+        "PPT": "Po",
+        "QR": "Qo",
+        "HG": "Ho"
+    },
+    "locations": {
+        "_trca_locationID": "_dw_locationID",
+        "HY002": "loc_hy002",
+        "HY003": "loc_hy003",
+        "HY005": "loc_hy005",
+        "HY006": "loc_hy006",
+        "HY016": "loc_hy016",
+        "HY017": "loc_hy017",
+        "HY018": "loc_hy018",
+        "HY019": "loc_hy019",
+        "HY021": "loc_hy021",
+        "HY022": "loc_hy022",
+        "HY024": "loc_hy024",
+        "HY026": "loc_hy026",
+        "HY027": "loc_hy027",
+        "HY030": "loc_hy030",
+        "HY033": "loc_hy033",
+        "HY036": "loc_hy036",
+        "HY037": "loc_hy037",
+        "HY039": "loc_hy039",
+        "HY041": "loc_hy041",
+        "HY045": "loc_hy045",
+        "HY046": "loc_hy046",
+        "HY061": "loc_hy061",
+        "HY062": "loc_hy062",
+        "HY064": "loc_hy064",
+        "HY067": "loc_hy067",
+        "HY068": "loc_hy068",
+        "HY070": "loc_hy070",
+        "HY079": "loc_hy079",
+        "HY080": "loc_hy080",
+        "HY081": "loc_hy081",
+        "HY085": "loc_hy085",
+        "HY088": "loc_hy088",
+        "HY092": "loc_hy092",
+        "HY093": "loc_hy093",
+        "HY097": "loc_hy097",
+        "HY098": "loc_hy098",
+        "HY099": "loc_hy099",
+        "HY101": "loc_hy101",
+        "HY104": "loc_hy104",
+        "HY118": "loc_hy118"
+    }
+}
