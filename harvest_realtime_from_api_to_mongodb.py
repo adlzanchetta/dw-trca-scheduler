@@ -7,11 +7,16 @@ import json
 import sys
 import os
 
+# ## INFO ######################################################################################
+
+# Objective: get a "trca_series_id" -> "dw_series_id" dictionary
+
 # ## CONS ######################################################################################
 
+MONGODB_CREDENTIALS_FILE_PATH = os.path.join("credentials", "amg", "credentials_mongodb.json")
+
 MAPPING_FILE_PATH = os.path.join("config", "variables_mapping.json")
-MONGODB_CREDENTIALS_FILE_PATH = os.path.join("config", "credentials_mongodb.json")
-TRCA_TIMESERIES_DESCRIPTION_FILE_PATH = os.path.join("temp", "timeSeriesDescriptionList.json")
+TRCA_TIMESERIES_DESCRIPTION_FILE_PATH = os.path.join("config", "timeseries_descriptions.json")
 
 COLLECTION_NAME_TIMESERIES = "crud_timeseries"
 COLLECTION_NAME_TS_FILTER = "crud_timeseries_filter_set"
@@ -23,10 +28,6 @@ TZ = "EST"
 TIME_TOLERANCE_HOURS = 24
 
 NONE_VALUE = -999
-
-# ## INFO ######################################################################################
-
-# Objective: get a "trca_series_id" -> "dw_series_id" dictionary
 
 # ## DEFS ######################################################################################
 
